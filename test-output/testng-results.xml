@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-30T19:35:22 EET" name="Default suite" finished-at="2021-10-30T19:35:32 EET" duration-ms="10411">
+    <groups>
+    </groups>
+    <test started-at="2021-10-30T19:35:22 EET" name="Default test" finished-at="2021-10-30T19:35:32 EET" duration-ms="10411">
+      <class name="waits.WaitTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:waits.WaitTests@6a28ffa4]" started-at="2021-10-30T19:35:22 EET" name="setup" finished-at="2021-10-30T19:35:26 EET" duration-ms="3922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:waits.WaitTests@6a28ffa4]" started-at="2021-10-30T19:35:26 EET" name="goHome" finished-at="2021-10-30T19:35:26 EET" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testDynamicLoadingExample2()[pri:0, instance:waits.WaitTests@6a28ffa4]" started-at="2021-10-30T19:35:26 EET" name="testDynamicLoadingExample2" finished-at="2021-10-30T19:35:32 EET" duration-ms="5640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDynamicLoadingExample2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitTests@6a28ffa4]" started-at="2021-10-30T19:35:32 EET" name="tearDown" finished-at="2021-10-30T19:35:32 EET" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- waits.WaitTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
