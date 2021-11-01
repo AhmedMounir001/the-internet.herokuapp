@@ -34,7 +34,7 @@ public class DynamicLoadingExample2Page<pollingEvery, withTimeout, ignoring> {
 		element = new WaitElements(driver);
 		element.waitInvisibilityOfElement(loadingIndicator);
 	}
-	
+		
 	public String getFinishMessage() {
 		//wait = new WebDriverWait(driver, 5000);
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(finish));

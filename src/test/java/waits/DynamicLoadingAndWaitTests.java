@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import base.BaseTest;
 
-public class WaitTests extends BaseTest{
+public class DynamicLoadingAndWaitTests extends BaseTest{
 
 	@Test
 	public void testDynamicLoadingExample1() {

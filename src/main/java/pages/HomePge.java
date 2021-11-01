@@ -85,4 +85,8 @@ public class HomePge {
 		clickLink("Dynamic Loading");
 		return new DynamicLoadingPage(driver); 
 	}
+	public MultipleWindowsPage clickMultipleWindowsPage() {
+		clickLink("Multiple Windows");
+		return new MultipleWindowsPage(driver);
+	}
 }

@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="waits.WaitTests">
+      <class name="navigation.NavigationTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="testDynamicLoadingExample2"/>
+          <include name="testRightClickToOpenNewTab"/>
           <include name="goHome"/>
         </methods>
-      </class> <!-- waits.WaitTests -->
+      </class> <!-- navigation.NavigationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

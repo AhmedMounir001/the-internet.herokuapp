@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-30T19:35:22 EET" name="Default suite" finished-at="2021-10-30T19:35:32 EET" duration-ms="10411">
+  <suite started-at="2021-11-01T16:48:00 EET" name="Default suite" finished-at="2021-11-01T16:48:06 EET" duration-ms="6384">
     <groups>
     </groups>
-    <test started-at="2021-10-30T19:35:22 EET" name="Default test" finished-at="2021-10-30T19:35:32 EET" duration-ms="10411">
-      <class name="waits.WaitTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:waits.WaitTests@6a28ffa4]" started-at="2021-10-30T19:35:22 EET" name="setup" finished-at="2021-10-30T19:35:26 EET" duration-ms="3922" status="PASS">
+    <test started-at="2021-11-01T16:48:00 EET" name="Default test" finished-at="2021-11-01T16:48:06 EET" duration-ms="6384">
+      <class name="navigation.NavigationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:navigation.NavigationTest@1700915]" started-at="2021-11-01T16:48:00 EET" name="setup" finished-at="2021-11-01T16:48:04 EET" duration-ms="4338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:waits.WaitTests@6a28ffa4]" started-at="2021-10-30T19:35:26 EET" name="goHome" finished-at="2021-10-30T19:35:26 EET" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:navigation.NavigationTest@1700915]" started-at="2021-11-01T16:48:04 EET" name="goHome" finished-at="2021-11-01T16:48:04 EET" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testDynamicLoadingExample2()[pri:0, instance:waits.WaitTests@6a28ffa4]" started-at="2021-10-30T19:35:26 EET" name="testDynamicLoadingExample2" finished-at="2021-10-30T19:35:32 EET" duration-ms="5640" status="PASS">
+        <test-method signature="testRightClickToOpenNewTab()[pri:0, instance:navigation.NavigationTest@1700915]" started-at="2021-11-01T16:48:04 EET" name="testRightClickToOpenNewTab" finished-at="2021-11-01T16:48:05 EET" duration-ms="1168" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDynamicLoadingExample2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitTests@6a28ffa4]" started-at="2021-10-30T19:35:32 EET" name="tearDown" finished-at="2021-10-30T19:35:32 EET" duration-ms="590" status="PASS">
+        </test-method> <!-- testRightClickToOpenNewTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:navigation.NavigationTest@1700915]" started-at="2021-11-01T16:48:05 EET" name="tearDown" finished-at="2021-11-01T16:48:06 EET" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- waits.WaitTests -->
+      </class> <!-- navigation.NavigationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
