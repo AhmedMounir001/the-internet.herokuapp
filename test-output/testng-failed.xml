@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="navigation.NavigationTest">
+      <class name="dropdown.DropdownTests">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="testRightClickToOpenNewTab"/>
+          <include name="screenshotFailure"/>
+          <include name="testSelectedOption"/>
           <include name="goHome"/>
         </methods>
-      </class> <!-- navigation.NavigationTest -->
+      </class> <!-- dropdown.DropdownTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
