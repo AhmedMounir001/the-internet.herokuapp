@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -28,7 +29,7 @@ public class BaseTest {
 	@BeforeClass
 	public void setup() {
 		WebDriverManager.chromiumdriver().browserVersion("95").setup();
-		driver = new EventFiringWebDriver(new ChromeDriver());
+		driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
 		driver.register(new EventReporter());
 		//driver.manage().timeouts().setScriptTimeout(4, TimeUnit.SECONDS);
 		goHome();
@@ -62,5 +63,10 @@ public class BaseTest {
 
 	protected WindowManager getWindoManager() {
 		return new WindowManager(driver);
+	}
+	private ChromeOptions getChromeOptions() {
+		ChromeOptions options=new ChromeOptions();
+		options.setHeadless(true);		
+		return options;
 	}
 }

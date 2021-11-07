@@ -11,7 +11,7 @@ public class FramesTests extends BaseTest {
 
 	private String text1="Hi ";
 	private String text2="Automation World";
-	
+	private String AllTexts=text1+text2;
 	@Test
 	public void TestTextAreaEditor() {
 		WysiWygEditorPage editorChange=homePage.clickWysiWygEditorLink();		
@@ -21,5 +21,6 @@ public class FramesTests extends BaseTest {
 		editorChange.setTextArea(text2);
 		System.out.println(editorChange.getEditorAreaText());
 		assertEquals(editorChange.getEditorAreaText(), text1+text2,"Wrong Data");
+		//assertTrue(editorChange.getEditorAreaText().contains(text1),"Wrong Data");
 	}
 }

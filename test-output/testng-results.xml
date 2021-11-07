@@ -1,116 +1,644 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-02T13:41:36 EET" name="Default suite" finished-at="2021-11-02T13:41:43 EET" duration-ms="7143">
+  <suite started-at="2021-11-07T17:05:36 EET" name="Default suite" finished-at="2021-11-07T17:07:12 EET" duration-ms="96512">
     <groups>
     </groups>
-    <test started-at="2021-11-02T13:41:36 EET" name="Default test" finished-at="2021-11-02T13:41:43 EET" duration-ms="7143">
-      <class name="alerts.JSAlertTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:36 EET" name="setup" finished-at="2021-11-02T13:41:40 EET" duration-ms="3604" status="PASS">
+    <test started-at="2021-11-07T17:05:36 EET" name="Default test" finished-at="2021-11-07T17:07:12 EET" duration-ms="96512">
+      <class name="keyPress.HorizontalTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keyPress.HorizontalTests@55b7a4e0]" started-at="2021-11-07T17:06:41 EET" name="setup" finished-at="2021-11-07T17:06:45 EET" duration-ms="3696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:40 EET" name="goHome" finished-at="2021-11-02T13:41:40 EET" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:keyPress.HorizontalTests@55b7a4e0]" started-at="2021-11-07T17:06:45 EET" name="goHome" finished-at="2021-11-07T17:06:45 EET" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testAcceptAlert()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:40 EET" name="testAcceptAlert" finished-at="2021-11-02T13:41:41 EET" duration-ms="398" status="PASS">
+        <test-method signature="testSuccessfullMoveOnSlider()[pri:0, instance:keyPress.HorizontalTests@55b7a4e0]" started-at="2021-11-07T17:06:45 EET" name="testSuccessfullMoveOnSlider" finished-at="2021-11-07T17:06:46 EET" duration-ms="920" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAcceptAlert -->
-        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:41 EET" name="screenshotFailure" finished-at="2021-11-02T13:41:41 EET" duration-ms="1" status="PASS">
+        </test-method> <!-- testSuccessfullMoveOnSlider -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:keyPress.HorizontalTests@55b7a4e0]" started-at="2021-11-07T17:06:46 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:46 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAcceptAlert status=SUCCESS method=JSAlertTests.testAcceptAlert()[pri:0, instance:alerts.JSAlertTests@1139b2f3] output={null}]]]>
+                <![CDATA[[TestResult name=testSuccessfullMoveOnSlider status=SUCCESS method=HorizontalTests.testSuccessfullMoveOnSlider()[pri:0, instance:keyPress.HorizontalTests@55b7a4e0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotFailure -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:41 EET" name="goHome" finished-at="2021-11-02T13:41:41 EET" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method signature="testCancelConfirmAlert()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:41 EET" name="testCancelConfirmAlert" finished-at="2021-11-02T13:41:41 EET" duration-ms="347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCancelConfirmAlert -->
-        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:41 EET" name="screenshotFailure" finished-at="2021-11-02T13:41:41 EET" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCancelConfirmAlert status=SUCCESS method=JSAlertTests.testCancelConfirmAlert()[pri:0, instance:alerts.JSAlertTests@1139b2f3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotFailure -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:41 EET" name="goHome" finished-at="2021-11-02T13:41:41 EET" duration-ms="193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method signature="testOKConfirmAlert()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:41 EET" name="testOKConfirmAlert" finished-at="2021-11-02T13:41:42 EET" duration-ms="360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOKConfirmAlert -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:42 EET" name="goHome" finished-at="2021-11-02T13:41:42 EET" duration-ms="223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:42 EET" name="screenshotFailure" finished-at="2021-11-02T13:41:42 EET" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testOKConfirmAlert status=SUCCESS method=JSAlertTests.testOKConfirmAlert()[pri:0, instance:alerts.JSAlertTests@1139b2f3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotFailure -->
-        <test-method signature="testtyppingInPromptAndCancel()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:42 EET" name="testtyppingInPromptAndCancel" finished-at="2021-11-02T13:41:42 EET" duration-ms="388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testtyppingInPromptAndCancel -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:42 EET" name="goHome" finished-at="2021-11-02T13:41:43 EET" duration-ms="211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:42 EET" name="screenshotFailure" finished-at="2021-11-02T13:41:42 EET" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testtyppingInPromptAndCancel status=SUCCESS method=JSAlertTests.testtyppingInPromptAndCancel()[pri:0, instance:alerts.JSAlertTests@1139b2f3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotFailure -->
-        <test-method signature="testtyppingInPromptAndOK()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:43 EET" name="testtyppingInPromptAndOK" finished-at="2021-11-02T13:41:43 EET" duration-ms="367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testtyppingInPromptAndOK -->
-        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:43 EET" name="screenshotFailure" finished-at="2021-11-02T13:41:43 EET" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testtyppingInPromptAndOK status=SUCCESS method=JSAlertTests.testtyppingInPromptAndOK()[pri:0, instance:alerts.JSAlertTests@1139b2f3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.JSAlertTests@1139b2f3]" started-at="2021-11-02T13:41:43 EET" name="tearDown" finished-at="2021-11-02T13:41:43 EET" duration-ms="588" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keyPress.HorizontalTests@55b7a4e0]" started-at="2021-11-07T17:06:46 EET" name="tearDown" finished-at="2021-11-07T17:06:47 EET" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+      </class> <!-- keyPress.HorizontalTests -->
+      <class name="navigation.NavigationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:33 EET" name="setup" finished-at="2021-11-07T17:06:36 EET" duration-ms="3328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:36 EET" name="goHome" finished-at="2021-11-07T17:06:36 EET" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testNavigation()[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:36 EET" name="testNavigation" finished-at="2021-11-07T17:06:38 EET" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigation -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:38 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:38 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavigation status=SUCCESS method=NavigationTest.testNavigation()[pri:0, instance:navigation.NavigationTest@6eda5c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:38 EET" name="goHome" finished-at="2021-11-07T17:06:39 EET" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testRightClickToOpenNewTab()[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:39 EET" name="testRightClickToOpenNewTab" finished-at="2021-11-07T17:06:40 EET" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRightClickToOpenNewTab -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:40 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:40 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRightClickToOpenNewTab status=SUCCESS method=NavigationTest.testRightClickToOpenNewTab()[pri:0, instance:navigation.NavigationTest@6eda5c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:40 EET" name="goHome" finished-at="2021-11-07T17:06:40 EET" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testWitchToTabs()[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:40 EET" name="testWitchToTabs" finished-at="2021-11-07T17:06:41 EET" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWitchToTabs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:41 EET" name="tearDown" finished-at="2021-11-07T17:06:41 EET" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:navigation.NavigationTest@6eda5c9]" started-at="2021-11-07T17:06:41 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:41 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWitchToTabs status=SUCCESS method=NavigationTest.testWitchToTabs()[pri:0, instance:navigation.NavigationTest@6eda5c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+      </class> <!-- navigation.NavigationTest -->
+      <class name="hovers.HoversTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:47 EET" name="setup" finished-at="2021-11-07T17:06:50 EET" duration-ms="3728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:50 EET" name="goHome" finished-at="2021-11-07T17:06:51 EET" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testHoverUser1()[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:51 EET" name="testHoverUser1" finished-at="2021-11-07T17:06:51 EET" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverUser1 -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:51 EET" name="goHome" finished-at="2021-11-07T17:06:52 EET" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:51 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:51 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHoverUser1 status=SUCCESS method=HoversTests.testHoverUser1()[pri:0, instance:hovers.HoversTests@5f058f00] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method signature="testHoverUser2()[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:52 EET" name="testHoverUser2" finished-at="2021-11-07T17:06:52 EET" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverUser2 -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:52 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHoverUser2 status=SUCCESS method=HoversTests.testHoverUser2()[pri:0, instance:hovers.HoversTests@5f058f00] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:52 EET" name="goHome" finished-at="2021-11-07T17:06:52 EET" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testHoverUser3()[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:52 EET" name="testHoverUser3" finished-at="2021-11-07T17:06:53 EET" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverUser3 -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:53 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:53 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHoverUser3 status=SUCCESS method=HoversTests.testHoverUser3()[pri:0, instance:hovers.HoversTests@5f058f00] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hovers.HoversTests@5f058f00]" started-at="2021-11-07T17:06:53 EET" name="tearDown" finished-at="2021-11-07T17:06:54 EET" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hovers.HoversTests -->
+      <class name="dropdown.DropdownTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:54 EET" name="setup" finished-at="2021-11-07T17:06:57 EET" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:57 EET" name="goHome" finished-at="2021-11-07T17:06:57 EET" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testAllOptions()[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:57 EET" name="testAllOptions" finished-at="2021-11-07T17:06:58 EET" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllOptions -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:58 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:58 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAllOptions status=SUCCESS method=DropdownTests.testAllOptions()[pri:0, instance:dropdown.DropdownTests@192d43ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:58 EET" name="goHome" finished-at="2021-11-07T17:06:59 EET" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testFirstSelectedOption()[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:59 EET" name="testFirstSelectedOption" finished-at="2021-11-07T17:06:59 EET" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstSelectedOption -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:59 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:59 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFirstSelectedOption status=SUCCESS method=DropdownTests.testFirstSelectedOption()[pri:0, instance:dropdown.DropdownTests@192d43ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:59 EET" name="goHome" finished-at="2021-11-07T17:06:59 EET" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSelectedOption()[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:06:59 EET" name="testSelectedOption" finished-at="2021-11-07T17:07:00 EET" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectedOption -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:07:00 EET" name="screenshotFailure" finished-at="2021-11-07T17:07:00 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectedOption status=SUCCESS method=DropdownTests.testSelectedOption()[pri:0, instance:dropdown.DropdownTests@192d43ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dropdown.DropdownTests@192d43ce]" started-at="2021-11-07T17:07:00 EET" name="tearDown" finished-at="2021-11-07T17:07:00 EET" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dropdown.DropdownTests -->
+      <class name="login.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:36 EET" name="setup" finished-at="2021-11-07T17:05:42 EET" duration-ms="5935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:42 EET" name="goHome" finished-at="2021-11-07T17:05:42 EET" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testCantLoginWithWrogUsername()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:42 EET" name="testCantLoginWithWrogUsername" finished-at="2021-11-07T17:05:43 EET" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCantLoginWithWrogUsername -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:43 EET" name="screenshotFailure" finished-at="2021-11-07T17:05:43 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCantLoginWithWrogUsername status=SUCCESS method=LoginTests.testCantLoginWithWrogUsername()[pri:0, instance:login.LoginTests@61df66b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:43 EET" name="goHome" finished-at="2021-11-07T17:05:43 EET" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testCantLoginWithWrongPassword()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:43 EET" name="testCantLoginWithWrongPassword" finished-at="2021-11-07T17:05:44 EET" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCantLoginWithWrongPassword -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:44 EET" name="goHome" finished-at="2021-11-07T17:05:45 EET" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:44 EET" name="screenshotFailure" finished-at="2021-11-07T17:05:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCantLoginWithWrongPassword status=SUCCESS method=LoginTests.testCantLoginWithWrongPassword()[pri:0, instance:login.LoginTests@61df66b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method signature="testCantLoginWithoutUserNameAndPassword()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:45 EET" name="testCantLoginWithoutUserNameAndPassword" finished-at="2021-11-07T17:05:45 EET" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCantLoginWithoutUserNameAndPassword -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:45 EET" name="screenshotFailure" finished-at="2021-11-07T17:05:45 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCantLoginWithoutUserNameAndPassword status=SUCCESS method=LoginTests.testCantLoginWithoutUserNameAndPassword()[pri:0, instance:login.LoginTests@61df66b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:45 EET" name="goHome" finished-at="2021-11-07T17:05:46 EET" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:46 EET" name="testSuccessfulLogin" finished-at="2021-11-07T17:05:46 EET" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:46 EET" name="tearDown" finished-at="2021-11-07T17:05:47 EET" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:login.LoginTests@61df66b6]" started-at="2021-11-07T17:05:46 EET" name="screenshotFailure" finished-at="2021-11-07T17:05:46 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTests.testSuccessfulLogin()[pri:0, instance:login.LoginTests@61df66b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+      </class> <!-- login.LoginTests -->
+      <class name="keyPress.KeyPressTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keyPress.KeyPressTests@20deea7f]" started-at="2021-11-07T17:05:47 EET" name="setup" finished-at="2021-11-07T17:05:53 EET" duration-ms="5800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:keyPress.KeyPressTests@20deea7f]" started-at="2021-11-07T17:05:53 EET" name="goHome" finished-at="2021-11-07T17:05:53 EET" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testBackSpace()[pri:0, instance:keyPress.KeyPressTests@20deea7f]" started-at="2021-11-07T17:05:53 EET" name="testBackSpace" finished-at="2021-11-07T17:05:54 EET" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackSpace -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:keyPress.KeyPressTests@20deea7f]" started-at="2021-11-07T17:05:54 EET" name="screenshotFailure" finished-at="2021-11-07T17:05:54 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBackSpace status=SUCCESS method=KeyPressTests.testBackSpace()[pri:0, instance:keyPress.KeyPressTests@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:keyPress.KeyPressTests@20deea7f]" started-at="2021-11-07T17:05:54 EET" name="goHome" finished-at="2021-11-07T17:05:54 EET" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testPi()[pri:0, instance:keyPress.KeyPressTests@20deea7f]" started-at="2021-11-07T17:05:54 EET" name="testPi" finished-at="2021-11-07T17:05:54 EET" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPi -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:keyPress.KeyPressTests@20deea7f]" started-at="2021-11-07T17:05:54 EET" name="screenshotFailure" finished-at="2021-11-07T17:05:54 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPi status=SUCCESS method=KeyPressTests.testPi()[pri:0, instance:keyPress.KeyPressTests@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keyPress.KeyPressTests@20deea7f]" started-at="2021-11-07T17:05:54 EET" name="tearDown" finished-at="2021-11-07T17:05:55 EET" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keyPress.KeyPressTests -->
+      <class name="alerts.ContextMenuTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:alerts.ContextMenuTests@72057ecf]" started-at="2021-11-07T17:07:00 EET" name="setup" finished-at="2021-11-07T17:07:04 EET" duration-ms="3567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.ContextMenuTests@72057ecf]" started-at="2021-11-07T17:07:04 EET" name="goHome" finished-at="2021-11-07T17:07:04 EET" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testRightClick()[pri:0, instance:alerts.ContextMenuTests@72057ecf]" started-at="2021-11-07T17:07:04 EET" name="testRightClick" finished-at="2021-11-07T17:07:05 EET" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRightClick -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.ContextMenuTests@72057ecf]" started-at="2021-11-07T17:07:05 EET" name="screenshotFailure" finished-at="2021-11-07T17:07:05 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRightClick status=SUCCESS method=ContextMenuTests.testRightClick()[pri:0, instance:alerts.ContextMenuTests@72057ecf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.ContextMenuTests@72057ecf]" started-at="2021-11-07T17:07:05 EET" name="tearDown" finished-at="2021-11-07T17:07:05 EET" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alerts.ContextMenuTests -->
+      <class name="frames.FramesTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:frames.FramesTests@6973b51b]" started-at="2021-11-07T17:07:05 EET" name="setup" finished-at="2021-11-07T17:07:09 EET" duration-ms="3705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:frames.FramesTests@6973b51b]" started-at="2021-11-07T17:07:09 EET" name="goHome" finished-at="2021-11-07T17:07:09 EET" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="TestTextAreaEditor()[pri:0, instance:frames.FramesTests@6973b51b]" started-at="2021-11-07T17:07:09 EET" name="TestTextAreaEditor" finished-at="2021-11-07T17:07:12 EET" duration-ms="2419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTextAreaEditor -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:frames.FramesTests@6973b51b]" started-at="2021-11-07T17:07:12 EET" name="screenshotFailure" finished-at="2021-11-07T17:07:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestTextAreaEditor status=SUCCESS method=FramesTests.TestTextAreaEditor()[pri:0, instance:frames.FramesTests@6973b51b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frames.FramesTests@6973b51b]" started-at="2021-11-07T17:07:12 EET" name="tearDown" finished-at="2021-11-07T17:07:12 EET" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frames.FramesTests -->
+      <class name="alerts.EntryAdTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:alerts.EntryAdTests@3835c46]" started-at="2021-11-07T17:05:55 EET" name="setup" finished-at="2021-11-07T17:06:01 EET" duration-ms="5919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.EntryAdTests@3835c46]" started-at="2021-11-07T17:06:01 EET" name="goHome" finished-at="2021-11-07T17:06:01 EET" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testClickOnClose()[pri:0, instance:alerts.EntryAdTests@3835c46]" started-at="2021-11-07T17:06:01 EET" name="testClickOnClose" finished-at="2021-11-07T17:06:02 EET" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnClose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.EntryAdTests@3835c46]" started-at="2021-11-07T17:06:02 EET" name="tearDown" finished-at="2021-11-07T17:06:02 EET" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.EntryAdTests@3835c46]" started-at="2021-11-07T17:06:02 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:02 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickOnClose status=SUCCESS method=EntryAdTests.testClickOnClose()[pri:0, instance:alerts.EntryAdTests@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+      </class> <!-- alerts.EntryAdTests -->
+      <class name="waits.DynamicLoadingAndWaitTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec]" started-at="2021-11-07T17:06:02 EET" name="setup" finished-at="2021-11-07T17:06:07 EET" duration-ms="4746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec]" started-at="2021-11-07T17:06:07 EET" name="goHome" finished-at="2021-11-07T17:06:07 EET" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testDynamicLoadingExample1()[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec]" started-at="2021-11-07T17:06:07 EET" name="testDynamicLoadingExample1" finished-at="2021-11-07T17:06:13 EET" duration-ms="5993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDynamicLoadingExample1 -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec]" started-at="2021-11-07T17:06:13 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:13 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDynamicLoadingExample1 status=SUCCESS method=DynamicLoadingAndWaitTests.testDynamicLoadingExample1()[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec]" started-at="2021-11-07T17:06:13 EET" name="goHome" finished-at="2021-11-07T17:06:13 EET" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testDynamicLoadingExample2()[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec]" started-at="2021-11-07T17:06:13 EET" name="testDynamicLoadingExample2" finished-at="2021-11-07T17:06:19 EET" duration-ms="5712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDynamicLoadingExample2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec]" started-at="2021-11-07T17:06:19 EET" name="tearDown" finished-at="2021-11-07T17:06:20 EET" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec]" started-at="2021-11-07T17:06:19 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:19 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDynamicLoadingExample2 status=SUCCESS method=DynamicLoadingAndWaitTests.testDynamicLoadingExample2()[pri:0, instance:waits.DynamicLoadingAndWaitTests@20ce78ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+      </class> <!-- waits.DynamicLoadingAndWaitTests -->
+      <class name="alerts.JSAlertTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:20 EET" name="setup" finished-at="2021-11-07T17:06:23 EET" duration-ms="3832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:23 EET" name="goHome" finished-at="2021-11-07T17:06:24 EET" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testAcceptAlert()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:24 EET" name="testAcceptAlert" finished-at="2021-11-07T17:06:24 EET" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptAlert -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:24 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:24 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAcceptAlert status=SUCCESS method=JSAlertTests.testAcceptAlert()[pri:0, instance:alerts.JSAlertTests@393671df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:24 EET" name="goHome" finished-at="2021-11-07T17:06:24 EET" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testCancelConfirmAlert()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:24 EET" name="testCancelConfirmAlert" finished-at="2021-11-07T17:06:25 EET" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelConfirmAlert -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:25 EET" name="goHome" finished-at="2021-11-07T17:06:25 EET" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:25 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancelConfirmAlert status=SUCCESS method=JSAlertTests.testCancelConfirmAlert()[pri:0, instance:alerts.JSAlertTests@393671df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method signature="testOKConfirmAlert()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:25 EET" name="testOKConfirmAlert" finished-at="2021-11-07T17:06:25 EET" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOKConfirmAlert -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:25 EET" name="goHome" finished-at="2021-11-07T17:06:25 EET" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:25 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOKConfirmAlert status=SUCCESS method=JSAlertTests.testOKConfirmAlert()[pri:0, instance:alerts.JSAlertTests@393671df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method signature="testtyppingInPromptAndCancel()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:25 EET" name="testtyppingInPromptAndCancel" finished-at="2021-11-07T17:06:26 EET" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtyppingInPromptAndCancel -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:26 EET" name="goHome" finished-at="2021-11-07T17:06:26 EET" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:26 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:26 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testtyppingInPromptAndCancel status=SUCCESS method=JSAlertTests.testtyppingInPromptAndCancel()[pri:0, instance:alerts.JSAlertTests@393671df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method signature="testtyppingInPromptAndOK()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:26 EET" name="testtyppingInPromptAndOK" finished-at="2021-11-07T17:06:26 EET" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtyppingInPromptAndOK -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:26 EET" name="tearDown" finished-at="2021-11-07T17:06:27 EET" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.JSAlertTests@393671df]" started-at="2021-11-07T17:06:26 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:26 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testtyppingInPromptAndOK status=SUCCESS method=JSAlertTests.testtyppingInPromptAndOK()[pri:0, instance:alerts.JSAlertTests@393671df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
       </class> <!-- alerts.JSAlertTests -->
+      <class name="alerts.FileUploadTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:alerts.FileUploadTests@56620197]" started-at="2021-11-07T17:06:27 EET" name="setup" finished-at="2021-11-07T17:06:30 EET" duration-ms="3479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.FileUploadTests@56620197]" started-at="2021-11-07T17:06:30 EET" name="goHome" finished-at="2021-11-07T17:06:30 EET" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSuccessflUploadFile()[pri:0, instance:alerts.FileUploadTests@56620197]" started-at="2021-11-07T17:06:30 EET" name="testSuccessflUploadFile" finished-at="2021-11-07T17:06:32 EET" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessflUploadFile -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:alerts.FileUploadTests@56620197]" started-at="2021-11-07T17:06:32 EET" name="screenshotFailure" finished-at="2021-11-07T17:06:32 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessflUploadFile status=SUCCESS method=FileUploadTests.testSuccessflUploadFile()[pri:0, instance:alerts.FileUploadTests@56620197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.FileUploadTests@56620197]" started-at="2021-11-07T17:06:32 EET" name="tearDown" finished-at="2021-11-07T17:06:33 EET" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alerts.FileUploadTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

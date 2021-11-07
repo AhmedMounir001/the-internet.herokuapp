@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dropdown.DropdownTests">
+      <class name="frames.FramesTests">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="screenshotFailure"/>
-          <include name="testSelectedOption"/>
+          <include name="TestTextAreaEditor"/>
           <include name="goHome"/>
         </methods>
-      </class> <!-- dropdown.DropdownTests -->
+      </class> <!-- frames.FramesTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
