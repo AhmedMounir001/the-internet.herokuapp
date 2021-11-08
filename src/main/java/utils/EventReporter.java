@@ -15,7 +15,7 @@ public class EventReporter implements WebDriverEventListener {
 
 	@Override
 	public void afterAlertAccept(WebDriver driver) {
-		System.out.println("Click On: ");
+		
 		System.out.println("Done");
 		
 	}
@@ -39,7 +39,7 @@ public class EventReporter implements WebDriverEventListener {
 
 	@Override
 	public void afterNavigateTo(String url, WebDriver driver) {		
-		System.out.println("Done");
+		System.out.println("Navigation to "+"' "+url+" '"+"Done");
 
 		
 	}
@@ -52,7 +52,7 @@ public class EventReporter implements WebDriverEventListener {
 
 	@Override
 	public void afterNavigateBack(WebDriver driver) {
-		System.out.println("Done");		
+		System.out.println("Navigate Back Done");		
 	}
 
 	@Override
@@ -62,7 +62,7 @@ public class EventReporter implements WebDriverEventListener {
 
 	@Override
 	public void afterNavigateForward(WebDriver driver) {
-		System.out.println("Done");
+		System.out.println("Navigate Forward Done");
 	}
 
 	@Override
@@ -72,7 +72,7 @@ public class EventReporter implements WebDriverEventListener {
 
 	@Override
 	public void afterNavigateRefresh(WebDriver driver) {
-		System.out.println("Done");
+		System.out.println("Refresh Done");
 	}
 
 	@Override
@@ -82,7 +82,7 @@ public class EventReporter implements WebDriverEventListener {
 
 	@Override
 	public void afterFindBy(By by, WebElement element, WebDriver driver) {
-		System.out.println("Done");
+		//System.out.println("Done");
 	}
 
 	@Override
@@ -95,7 +95,7 @@ public class EventReporter implements WebDriverEventListener {
 	@Override
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		
-		System.out.println("Done");
+		System.out.println("Click on "+element.getText()+" Done");
 
 		
 	}
@@ -131,7 +131,7 @@ public class EventReporter implements WebDriverEventListener {
 
 	@Override
 	public void afterSwitchToWindow(String windowName, WebDriver driver) {
-		System.out.println("Done");		
+		System.out.println("Switching to window Done");		
 	}
 
 	@Override
@@ -147,7 +147,7 @@ public class EventReporter implements WebDriverEventListener {
 
 	@Override
 	public <X> void afterGetScreenshotAs(OutputType<X> target, X screenshot) {
-		System.out.println("Done");
+		System.out.println("Screenahot Done");
 		
 	}
 

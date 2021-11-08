@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 
 /**
- * FluentWait weith time duration 100 seconds and polling every 1 nano seconds
+ * FluentWait with time duration 100 seconds and polling every 1 nanoseconds
  * and ignoring NoSuchElementException * 
  * @author Mounir
  *
